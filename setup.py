@@ -32,7 +32,7 @@ setup(name='trytond_account_es_pyme',
     author='Zikzakmedia SL',
     author_email='zikzak@zikzakmedia.com',
     url='http://www.zikzakmedia.com',
-    download_url="https://bitbucket.org/zikzakmedia/trytond-account_es_pyme",
+    download_url="https://bitbucket.org/trytonspain/trytond-account_es_pyme",
     package_dir={'trytond.modules.account_es_pyme': '.'},
     packages=[
         'trytond.modules.account_es_pyme',
