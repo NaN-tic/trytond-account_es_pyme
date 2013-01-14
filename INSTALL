@@ -1,5 +1,5 @@
-Installing trytond_account_es
-=============================
+Installing trytond_account_es_pyme
+==================================
 
 Prerequisites
 -------------
@@ -11,8 +11,8 @@ Prerequisites
 Installation
 ------------
 
-Once you've downloaded and unpacked the trytond_account_es source release, enter the
-directory where the archive was unpacked, and run:
+Once you've downloaded and unpacked the trytond_account_es_pyme source release,
+enter the directory where the archive was unpacked, and run:
 
     python setup.py install
 
@@ -27,4 +27,4 @@ documentation:
   http://docs.python.org/inst/inst.html
 
 To use without installation, extract the archive into ``trytond/modules`` with
-the directory name account_es.
+the directory name account_es_pyme.
