@@ -14,6 +14,7 @@ import unittest
 import trytond.tests.test_tryton
 from trytond.tests.test_tryton import test_depends
 
+
 class AccountEsPymeTestCase(unittest.TestCase):
     '''
     Test Account ES PyME module.
@@ -21,6 +22,12 @@ class AccountEsPymeTestCase(unittest.TestCase):
 
     def setUp(self):
         trytond.tests.test_tryton.install_module('account_es_pyme')
+
+    def test0006depends(self):
+        '''
+        Test depends.
+        '''
+        test_depends()
 
 
 def suite():
