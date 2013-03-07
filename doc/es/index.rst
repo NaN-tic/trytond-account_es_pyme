@@ -18,8 +18,8 @@ adicional de estado de ingresos y gastos, deberan usar el módulo de
 
 .. _Contabilidad Española: ../account_es/index.html
 
-Módulos que dependen
-====================
+Módulos de los que depende
+==========================
 
 Instalados
 ----------
