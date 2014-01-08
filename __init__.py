@@ -8,5 +8,6 @@ from .account import *
 def register():
     Pool.register(
         Account,
+        TaxTemplate,
         Tax,
         module='account_es_pyme', type_='model')
