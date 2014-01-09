@@ -16,8 +16,8 @@ class TaxTemplate:
     def _get_tax_value(self, tax=None):
         res = super(TaxTemplate, self)._get_tax_value(tax)
 
-        if not tax or tax.report_description != self.zero_description:
-            res['report_description'] = self.zero_description
+        if not tax or tax.report_description != self.report_description:
+            res['report_description'] = self.report_description
         return res
 
 
