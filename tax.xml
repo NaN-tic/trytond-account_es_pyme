@@ -1514,7 +1514,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 0% Intracomunitario</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_sale_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_base_code" ref="base_pymes_intra_42"/>
       <field name="credit_note_base_code" ref="base_pymes_intra_42"/>
@@ -1529,7 +1529,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 4% Intracomunitario. Bienes corrientes</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -1540,7 +1540,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_4_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.04')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_30_4"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_31_4"/>
@@ -1557,7 +1557,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_4_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -1574,7 +1574,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 4% Intracomunitario. Bienes de inversión</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -1585,7 +1585,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_4_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.04')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_32_4"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_33_4"/>
@@ -1602,7 +1602,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_4_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -1619,7 +1619,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 7% Intracomunitario. Bienes corrientes</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -1630,7 +1630,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_7_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.07')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_30_7"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_31_7"/>
@@ -1647,7 +1647,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_7_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.07')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -1664,7 +1664,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 7% Intracomunitario. Bienes de inversión</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -1675,7 +1675,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_7_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.07')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_32_7"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_33_7"/>
@@ -1692,7 +1692,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_7_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.07')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -1709,7 +1709,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 8% Intracomunitario. Bienes corrientes</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -1720,7 +1720,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_8_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.08')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_30_8"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_31_8"/>
@@ -1737,7 +1737,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_8_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.08')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -1754,7 +1754,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 8% Intracomunitario. Bienes de inversión</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -1765,7 +1765,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_8_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.08')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_32_8"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_33_8"/>
@@ -1782,7 +1782,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_8_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.08')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -1799,7 +1799,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 10% Intracomunitario. Bienes corrientes</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -1810,7 +1810,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_10_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.1')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_30_10"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_31_10"/>
@@ -1827,7 +1827,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_10_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -1844,7 +1844,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 10% Intracomunitario. Bienes de inversión</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -1855,7 +1855,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_10_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.1')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_32_10"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_33_10"/>
@@ -1872,7 +1872,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_10_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -1889,7 +1889,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 16% Intracomunitario. Bienes corrientes</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -1900,7 +1900,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_16_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_30_16"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_31_16"/>
@@ -1917,7 +1917,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_16_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.16')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -1934,7 +1934,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 16% Intracomunitario. Bienes de inversión</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -1945,7 +1945,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_16_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_32_16"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_33_16"/>
@@ -1962,7 +1962,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_16_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.16')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -1979,7 +1979,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 18% Intracomunitario. Bienes corrientes</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -1990,7 +1990,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_18_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.18')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_30_18"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_31_18"/>
@@ -2007,7 +2007,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_18_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.18')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -2024,7 +2024,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 18% Intracomunitario. Bienes de inversión</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -2035,7 +2035,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_18_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.18')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_32_18"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_33_18"/>
@@ -2052,7 +2052,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_18_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.18')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -2069,7 +2069,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 21% Intracomunitario. Bienes corrientes</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -2080,7 +2080,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_21_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.21')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_30_21"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_31_21"/>
@@ -2097,7 +2097,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_21_bc"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.21')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
@@ -2114,7 +2114,7 @@ copyright notices and license terms. -->
       <field name="description">IVA 21% Intracomunitario. Bienes de inversión</field>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="pgc_pymes_4700_child"/>
       <field name="credit_note_account" ref="pgc_pymes_4700_child"/>
@@ -2125,7 +2125,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_21_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('0.21')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_ded_32_21"/>
       <field name="invoice_tax_code" ref="iva_pymes_ded_33_21"/>
@@ -2142,7 +2142,7 @@ copyright notices and license terms. -->
       <field name="parent" ref="iva_pymes_IC_compras_21_bi"/>
       <field name="account" ref="pgc_pymes_0"/>
       <field name="group" ref="tax_group_purchase_pymes"/>
-      <field name="type">percentage</field>
+      <field name="type">none</field>
       <field eval="Decimal('-0.21')" name="rate"/>
       <field name="invoice_base_code" ref="iva_pymes_dev_19"/>
       <field name="invoice_tax_code" ref="iva_pymes_dev_20"/>
