@@ -4038,7 +4038,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_300"/>
             <field name="code">300</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4057,7 +4057,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_301"/>
             <field name="code">301</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4085,7 +4085,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_310"/>
             <field name="code">310</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4104,7 +4104,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_311"/>
             <field name="code">311</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4132,7 +4132,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_320"/>
             <field name="code">320</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4151,7 +4151,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_321"/>
             <field name="code">321</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4170,7 +4170,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_322"/>
             <field name="code">322</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4189,7 +4189,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_325"/>
             <field name="code">325</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4208,7 +4208,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_326"/>
             <field name="code">326</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4227,7 +4227,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_327"/>
             <field name="code">327</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4246,7 +4246,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_328"/>
             <field name="code">328</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4274,7 +4274,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_330"/>
             <field name="code">330</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4293,7 +4293,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_331"/>
             <field name="code">331</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4321,7 +4321,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_340"/>
             <field name="code">340</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4340,7 +4340,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_341"/>
             <field name="code">341</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4368,7 +4368,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_350"/>
             <field name="code">350</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4387,7 +4387,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_351"/>
             <field name="code">351</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4415,7 +4415,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_360"/>
             <field name="code">360</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4434,7 +4434,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_361"/>
             <field name="code">361</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4453,7 +4453,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_365"/>
             <field name="code">365</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4472,7 +4472,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_366"/>
             <field name="code">366</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4491,7 +4491,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_368"/>
             <field name="code">368</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4510,7 +4510,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_369"/>
             <field name="code">369</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4538,7 +4538,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_390"/>
             <field name="code">390</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4557,7 +4557,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_391"/>
             <field name="code">391</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4576,7 +4576,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_392"/>
             <field name="code">392</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4595,7 +4595,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_393"/>
             <field name="code">393</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4614,7 +4614,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_394"/>
             <field name="code">394</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4633,7 +4633,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_395"/>
             <field name="code">395</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
@@ -4652,7 +4652,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_396"/>
             <field name="code">396</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">other</field>
+            <field name="kind">stock</field>
             <field name="type" ref="es_balance_pymes_12200"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
