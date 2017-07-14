@@ -9,6 +9,8 @@ from . import tax
 def register():
     Pool.register(
         account.Account,
+        account.FiscalYear,
+        account.Period,
         currency.Currency,
         tax.Tax,
         tax.TaxTemplate,

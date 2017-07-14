@@ -2,7 +2,7 @@
 #copyright notices and license terms.
 from trytond.pool import PoolMeta
 
-__all__ = ['Account']
+__all__ = ['Account', 'FiscalYear', 'Period']
 
 
 class Account:
@@ -15,3 +15,37 @@ class Account:
         value = ('efective', 'Efective')
         if not value in cls.kind.selection:
             cls.kind.selection.append(value)
+
+
+class FiscalYear:
+    __metaclass__ = PoolMeta
+    __name__ = 'account.fiscalyear'
+    code = fields.Char('Code', size=None)
+
+    @classmethod
+    def search_rec_name(cls, name, clause):
+        if clause[1].startswith('!') or clause[1].startswith('not '):
+            bool_op = 'AND'
+        else:
+            bool_op = 'OR'
+        return [bool_op,
+            ('code',) + tuple(clause[1:]),
+            (cls._rec_name,) + tuple(clause[1:]),
+            ]
+
+
+class Period:
+    __metaclass__ = PoolMeta
+    __name__ = 'account.period'
+    code = fields.Char('Code', size=None)
+
+    @classmethod
+    def search_rec_name(cls, name, clause):
+        if clause[1].startswith('!') or clause[1].startswith('not '):
+            bool_op = 'AND'
+        else:
+            bool_op = 'OR'
+        return [bool_op,
+            ('code',) + tuple(clause[1:]),
+            (cls._rec_name,) + tuple(clause[1:]),
+            ]
