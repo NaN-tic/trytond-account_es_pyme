@@ -38,6 +38,7 @@ info = dict(config.items('tryton'))
 for key in ('depends', 'extras_depend', 'xml'):
     if key in info:
         info[key] = info[key].strip().splitlines()
+
 version = info.get('version', '0.0.1')
 major_version, minor_version, _ = version.split('.', 2)
 major_version = int(major_version)
@@ -50,7 +51,7 @@ for dep in info.get('depends', []):
         requires.append(get_require_version('%s_%s' % (prefix, dep)))
 requires.append(get_require_version('trytond'))
 
-tests_require = [get_require_version('proteus')]
+tests_require = []
 dependency_links = []
 if minor_version % 2:
     # Add development index for testing with proteus
@@ -115,4 +116,6 @@ setup(name='%s_%s' % (PREFIX, MODULE),
     """ % (MODULE, MODULE),
     test_suite='tests',
     test_loader='trytond.test_loader:Loader',
+    tests_require=tests_require,
+    use_2to3=True,
     )
