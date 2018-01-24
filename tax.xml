@@ -946,6 +946,30 @@ this repository contains the full copyright notices and license terms. -->
             <field name="code">BR.ISP.C</field>
             <field name="account" ref="pgc_pymes_0"/>
         </record>
+        <record model="account.tax.code.template" id="bases_pymes_ispca">
+            <field name="name">Base soportada Inversión del sujeto pasivo compras (abonos)</field>
+            <field name="parent" ref="ispc_pymes"/>
+            <field name="code">BS.ISP.CA</field>
+            <field name="account" ref="pgc_pymes_0"/>
+        </record>
+        <record model="account.tax.code.template" id="baser_pymes_ispca">
+            <field name="name">Base repercutida Inversión del sujeto pasivo compras (abonos)</field>
+            <field name="parent" ref="ispc_pymes"/>
+            <field name="code">BR.ISP.CA</field>
+            <field name="account" ref="pgc_pymes_0"/>
+        </record>
+        <record model="account.tax.code.template" id="cuotas_pymes_ispca">
+            <field name="name">Cuota soportada Inversión del sujeto pasivo compras (abonos)</field>
+            <field name="parent" ref="ispc_pymes"/>
+            <field name="code">BS.ISP.CA</field>
+            <field name="account" ref="pgc_pymes_0"/>
+        </record>
+        <record model="account.tax.code.template" id="cuotar_pymes_ispca">
+            <field name="name">Cuota repercutida Inversión del sujeto pasivo compras (abonos)</field>
+            <field name="parent" ref="ispc_pymes"/>
+            <field name="code">BR.ISP.CA</field>
+            <field name="account" ref="pgc_pymes_0"/>
+        </record>
         <record model="account.tax.code.template" id="iva_pymes_aduana_base_ingres_4">
             <field name="name">Base a la importación liquidado por la Aduana pendiente de ingreso (4%)</field>
             <field name="parent" ref="iva_pymes_aduana_base_ingres"/>
