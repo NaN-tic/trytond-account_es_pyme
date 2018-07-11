@@ -278,10 +278,10 @@ this repository contains the full copyright notices and license terms. -->
         </record>
     </data>
     <data grouped="1">
-        <record model="account.account.type.template" id="es_balance_pymes_12380">
+        <record model="account.account.type.template" id="es_balance_pymes_12310">
             <field name="name">1. Clientes por ventas y prestaciones de servicios</field>
             <field name="parent" ref="es_balance_pymes_12300"/>
-            <field name="sequence" eval="12380"/>
+            <field name="sequence" eval="12310"/>
             <field name="display_balance">debit-credit</field>
         </record>
         <record model="account.account.type.template" id="es_balance_pymes_12370">
@@ -290,10 +290,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="sequence" eval="12370"/>
             <field name="display_balance">debit-credit</field>
         </record>
-        <record model="account.account.type.template" id="es_balance_pymes_12390">
+        <record model="account.account.type.template" id="es_balance_pymes_12330">
             <field name="name">3. Otros deudores</field>
             <field name="parent" ref="es_balance_pymes_12300"/>
-            <field name="sequence" eval="12390"/>
+            <field name="sequence" eval="12330"/>
             <field name="display_balance">debit-credit</field>
         </record>
         <record model="account.account.type.template" id="es_balance_pymes_21100">
@@ -356,10 +356,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="sequence" eval="31230"/>
             <field name="display_balance">debit-credit</field>
         </record>
-        <record model="account.account.type.template" id="es_balance_pymes_31290">
+        <record model="account.account.type.template" id="es_balance_pymes_31250">
             <field name="name">3. Otras deudas a largo plazo</field>
             <field name="parent" ref="es_balance_pymes_31200"/>
-            <field name="sequence" eval="31290"/>
+            <field name="sequence" eval="31250"/>
             <field name="display_balance">debit-credit</field>
         </record>
         <record model="account.account.type.template" id="es_balance_pymes_32320">
@@ -380,16 +380,16 @@ this repository contains the full copyright notices and license terms. -->
             <field name="sequence" eval="32390"/>
             <field name="display_balance">debit-credit</field>
         </record>
-        <record model="account.account.type.template" id="es_balance_pymes_32580">
+        <record model="account.account.type.template" id="es_balance_pymes_32510">
             <field name="name">1. Proveedores</field>
             <field name="parent" ref="es_balance_pymes_32500"/>
-            <field name="sequence" eval="32580"/>
+            <field name="sequence" eval="32510"/>
             <field name="display_balance">debit-credit</field>
         </record>
-        <record model="account.account.type.template" id="es_balance_pymes_32590">
+        <record model="account.account.type.template" id="es_balance_pymes_32530">
             <field name="name">2. Otros acreedores</field>
             <field name="parent" ref="es_balance_pymes_32500"/>
-            <field name="sequence" eval="32590"/>
+            <field name="sequence" eval="32530"/>
             <field name="display_balance">debit-credit</field>
         </record>
         <record model="account.account.type.template" id="es_pyg_pymes_40100">
@@ -496,16 +496,16 @@ this repository contains the full copyright notices and license terms. -->
         </record>
     </data>
     <data grouped="1">
-        <record model="account.account.type.template" id="es_balance_pymes_12381">
+        <record model="account.account.type.template" id="es_balance_pymes_12311">
             <field name="name">a) Clientes por ventas y prestaciones de servicios a largo plazo</field>
-            <field name="parent" ref="es_balance_pymes_12380"/>
-            <field name="sequence" eval="12381"/>
+            <field name="parent" ref="es_balance_pymes_12310"/>
+            <field name="sequence" eval="12311"/>
             <field name="display_balance">debit-credit</field>
         </record>
-        <record model="account.account.type.template" id="es_balance_pymes_12382">
+        <record model="account.account.type.template" id="es_balance_pymes_12312">
             <field name="name">b) Clientes por ventas y prestaciones de servicios a corto plazo</field>
-            <field name="parent" ref="es_balance_pymes_12380"/>
-            <field name="sequence" eval="12382"/>
+            <field name="parent" ref="es_balance_pymes_12310"/>
+            <field name="sequence" eval="12312"/>
             <field name="display_balance">debit-credit</field>
         </record>
         <record model="account.account.type.template" id="es_balance_pymes_21110">
@@ -520,16 +520,16 @@ this repository contains the full copyright notices and license terms. -->
             <field name="sequence" eval="21120"/>
             <field name="display_balance">debit-credit</field>
         </record>
-        <record model="account.account.type.template" id="es_balance_pymes_32581">
+        <record model="account.account.type.template" id="es_balance_pymes_32511">
             <field name="name">a) Proveedores a largo plazo</field>
-            <field name="parent" ref="es_balance_pymes_32580"/>
-            <field name="sequence" eval="32581"/>
+            <field name="parent" ref="es_balance_pymes_32510"/>
+            <field name="sequence" eval="32511"/>
             <field name="display_balance">debit-credit</field>
         </record>
-        <record model="account.account.type.template" id="es_balance_pymes_32582">
+        <record model="account.account.type.template" id="es_balance_pymes_32512">
             <field name="name">b) Proveedores a corto plazo</field>
-            <field name="parent" ref="es_balance_pymes_32580"/>
-            <field name="sequence" eval="32582"/>
+            <field name="parent" ref="es_balance_pymes_32510"/>
+            <field name="sequence" eval="32512"/>
             <field name="display_balance">debit-credit</field>
         </record>
         <record model="account.account.type.template" id="es_pyg_pymes_41430">
@@ -4329,7 +4329,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_171"/>
             <field name="code">171</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_31290"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -4338,7 +4338,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_172"/>
             <field name="code">172</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_31290"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -4347,7 +4347,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_173"/>
             <field name="code">173</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_31290"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -4365,16 +4365,15 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_175"/>
             <field name="code">175</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_31290"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
-        <record model="account.account.template" id="pgc_pymes_176_child">
-            <field name="name">Pasivos por derivados financieros</field>
+        <record model="account.account.template" id="pgc_pymes_1765">
+            <field name="name">Pasivos por derivados financieros, cartera de negociación</field>
             <field name="parent" ref="pgc_pymes_176"/>
-            <field name="code">176</field>
-            <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_31290"/>
+            <field name="code">1765</field>
+            <field name="kind">view</field>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -4383,7 +4382,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_177"/>
             <field name="code">177</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_31290"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -4392,7 +4391,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_179"/>
             <field name="code">179</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_31290"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -4401,7 +4400,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_180"/>
             <field name="code">180</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_31290"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -4419,7 +4418,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_185"/>
             <field name="code">185</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_31290"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -4843,12 +4842,11 @@ this repository contains the full copyright notices and license terms. -->
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
-        <record model="account.account.template" id="pgc_pymes_255_child">
-            <field name="name">Activos por derivados financieros</field>
+        <record model="account.account.template" id="pgc_pymes_2550">
+            <field name="name">Activos por derivados financieros, cartera de negociación</field>
             <field name="parent" ref="pgc_pymes_255"/>
-            <field name="code">255</field>
-            <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_11500"/>
+            <field name="code">2550</field>
+            <field name="kind">view</field>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -5559,7 +5557,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_401"/>
             <field name="code">401</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -5609,7 +5607,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_404"/>
             <field name="code">404</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -5618,7 +5616,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_405"/>
             <field name="code">405</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -5627,7 +5625,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_406"/>
             <field name="code">406</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -5669,7 +5667,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_411"/>
             <field name="code">411</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -5679,7 +5677,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_419"/>
             <field name="code">419</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -5745,7 +5743,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_432"/>
             <field name="code">432</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -5810,7 +5808,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_434"/>
             <field name="code">434</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -5819,7 +5817,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_435"/>
             <field name="code">435</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -5828,7 +5826,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_436"/>
             <field name="code">436</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -5837,7 +5835,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_437"/>
             <field name="code">437</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -5846,7 +5844,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_438"/>
             <field name="code">438</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -5911,7 +5909,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_446"/>
             <field name="code">446</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -5921,7 +5919,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_449"/>
             <field name="code">449</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -5931,7 +5929,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_460"/>
             <field name="code">460</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -5941,7 +5939,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_465"/>
             <field name="code">465</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -5975,7 +5973,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_471"/>
             <field name="code">471</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -6040,7 +6038,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_476"/>
             <field name="code">476</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -6093,7 +6091,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_490"/>
             <field name="code">490</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -6671,7 +6669,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_544"/>
             <field name="code">544</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -7561,12 +7559,11 @@ this repository contains the full copyright notices and license terms. -->
             <field name="deferral" eval="False"/>
             <field name="party_required" eval="False"/>
         </record>
-        <record model="account.account.template" id="pgc_pymes_663_child">
-            <field name="name">Pérdidas por valoración de activos y pasivos financieros por su valor razonable</field>
+        <record model="account.account.template" id="pgc_pymes_6630">
+            <field name="name">Pérdidas de cartera de negociación</field>
             <field name="parent" ref="pgc_pymes_663"/>
-            <field name="code">663</field>
-            <field name="kind">expense</field>
-            <field name="type" ref="es_pyg_pymes_41600"/>
+            <field name="code">6630</field>
+            <field name="kind">view</field>
             <field name="deferral" eval="False"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -8664,12 +8661,11 @@ this repository contains the full copyright notices and license terms. -->
             <field name="deferral" eval="False"/>
             <field name="party_required" eval="False"/>
         </record>
-        <record model="account.account.template" id="pgc_pymes_763_child">
-            <field name="name">Beneficios por valoración de activos y pasivos financieros por su valor razonable</field>
+        <record model="account.account.template" id="pgc_pymes_7630">
+            <field name="name">Beneficios de cartera de negociación</field>
             <field name="parent" ref="pgc_pymes_763"/>
-            <field name="code">763</field>
-            <field name="kind">revenue</field>
-            <field name="type" ref="es_pyg_pymes_41600"/>
+            <field name="code">7630</field>
+            <field name="kind">view</field>
             <field name="deferral" eval="False"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -9306,7 +9302,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_1615"/>
             <field name="code">1615</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_31290"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -9360,7 +9356,16 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_1635"/>
             <field name="code">1635</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_31290"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="False"/>
+        </record>
+        <record model="account.account.template" id="pgc_pymes_1765_child">
+            <field name="name">Pasivos por derivados financieros</field>
+            <field name="parent" ref="pgc_pymes_1765"/>
+            <field name="code">1765</field>
+            <field name="kind">other</field>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -9467,6 +9472,15 @@ this repository contains the full copyright notices and license terms. -->
             <field name="name">Desembolsos pendientes sobre participaciones en otras partes vinculadas</field>
             <field name="parent" ref="pgc_pymes_2495"/>
             <field name="code">2495</field>
+            <field name="kind">other</field>
+            <field name="type" ref="es_balance_pymes_11500"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="False"/>
+        </record>
+        <record model="account.account.template" id="pgc_pymes_2550_child">
+            <field name="name">Activos por derivados financieros</field>
+            <field name="parent" ref="pgc_pymes_2550"/>
+            <field name="code">2550</field>
             <field name="kind">other</field>
             <field name="type" ref="es_balance_pymes_11500"/>
             <field name="deferral" eval="True"/>
@@ -9855,7 +9869,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4000"/>
             <field name="code">4000</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9865,7 +9879,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4004"/>
             <field name="code">4004</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9875,7 +9889,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4009"/>
             <field name="code">4009</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9885,7 +9899,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4030"/>
             <field name="code">4030</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9895,7 +9909,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4031"/>
             <field name="code">4031</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9905,7 +9919,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4034"/>
             <field name="code">4034</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9915,7 +9929,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4036"/>
             <field name="code">4036</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9925,7 +9939,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4039"/>
             <field name="code">4039</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32580"/>
+            <field name="type" ref="es_balance_pymes_32510"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9935,7 +9949,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4100"/>
             <field name="code">4100</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9945,7 +9959,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4104"/>
             <field name="code">4104</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9955,7 +9969,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4109"/>
             <field name="code">4109</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9965,7 +9979,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4300"/>
             <field name="code">4300</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9975,7 +9989,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4304"/>
             <field name="code">4304</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9985,7 +9999,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4309"/>
             <field name="code">4309</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -9995,7 +10009,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4310"/>
             <field name="code">4310</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -10005,7 +10019,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4311"/>
             <field name="code">4311</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -10015,7 +10029,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4312"/>
             <field name="code">4312</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -10025,7 +10039,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4315"/>
             <field name="code">4315</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -10035,7 +10049,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4330"/>
             <field name="code">4330</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -10045,7 +10059,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4331"/>
             <field name="code">4331</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -10055,7 +10069,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4332"/>
             <field name="code">4332</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -10065,7 +10079,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4334"/>
             <field name="code">4334</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -10075,7 +10089,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4336"/>
             <field name="code">4336</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -10085,7 +10099,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4337"/>
             <field name="code">4337</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -10095,7 +10109,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4339"/>
             <field name="code">4339</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
             <field name="reconcile" eval="True"/>
@@ -10105,7 +10119,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4400"/>
             <field name="code">4400</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
@@ -10114,7 +10128,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4404"/>
             <field name="code">4404</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
@@ -10123,7 +10137,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4409"/>
             <field name="code">4409</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
@@ -10132,7 +10146,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4410"/>
             <field name="code">4410</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
@@ -10141,7 +10155,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4411"/>
             <field name="code">4411</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
@@ -10150,7 +10164,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4412"/>
             <field name="code">4412</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
@@ -10159,7 +10173,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4415"/>
             <field name="code">4415</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
@@ -10168,7 +10182,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4700"/>
             <field name="code">4700</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -10178,7 +10192,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4708"/>
             <field name="code">4708</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -10188,7 +10202,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4709"/>
             <field name="code">4709</field>
             <field name="kind">receivable</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -10225,7 +10239,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4750"/>
             <field name="code">4750</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -10235,7 +10249,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="code">4751</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -10245,7 +10259,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4752"/>
             <field name="code">4752</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -10255,7 +10269,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4758"/>
             <field name="code">4758</field>
             <field name="kind">payable</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -10265,7 +10279,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4933"/>
             <field name="code">4933</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -10275,7 +10289,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4934"/>
             <field name="code">4934</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -10285,7 +10299,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4935"/>
             <field name="code">4935</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12380"/>
+            <field name="type" ref="es_balance_pymes_12310"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="False"/>
             <field name="reconcile" eval="True"/>
@@ -11191,6 +11205,15 @@ this repository contains the full copyright notices and license terms. -->
             <field name="code">6624</field>
             <field name="kind">expense</field>
             <field name="type" ref="es_pyg_pymes_41500"/>
+            <field name="deferral" eval="False"/>
+            <field name="party_required" eval="False"/>
+        </record>
+        <record model="account.account.template" id="pgc_pymes_6630_child">
+            <field name="name">Pérdidas por valoración de activos y pasivos financieros por su valor razonable</field>
+            <field name="parent" ref="pgc_pymes_6630"/>
+            <field name="code">6630</field>
+            <field name="kind">expense</field>
+            <field name="type" ref="es_pyg_pymes_41600"/>
             <field name="deferral" eval="False"/>
             <field name="party_required" eval="False"/>
         </record>
@@ -12167,6 +12190,15 @@ this repository contains the full copyright notices and license terms. -->
             <field name="deferral" eval="False"/>
             <field name="party_required" eval="False"/>
         </record>
+        <record model="account.account.template" id="pgc_pymes_7630_child">
+            <field name="name">Beneficios por valoración de activos y pasivos financieros por su valor razonable</field>
+            <field name="parent" ref="pgc_pymes_7630"/>
+            <field name="code">7630</field>
+            <field name="kind">revenue</field>
+            <field name="type" ref="es_pyg_pymes_41600"/>
+            <field name="deferral" eval="False"/>
+            <field name="party_required" eval="False"/>
+        </record>
         <record model="account.account.template" id="pgc_pymes_7660_child">
             <field name="name">Beneficios en valores representativos de deuda a largo plazo, empresas del grupo</field>
             <field name="parent" ref="pgc_pymes_7660"/>
@@ -12658,7 +12690,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4771"/>
             <field name="name">Hacienda Pública. IVA repercutido. Recargo de Equivalencia 0.5%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477110">
@@ -12666,7 +12698,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4771"/>
             <field name="name">Hacienda Pública. IVA repercutido. Recargo de Equivalencia 1.4%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477121">
@@ -12674,7 +12706,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4771"/>
             <field name="name">Hacienda Pública. IVA repercutido. Recargo de Equivalencia 5.2%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472104">
@@ -12682,7 +12714,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IVA Recargo de Equivalencia 0.5%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472110">
@@ -12690,7 +12722,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IVA Recargo de Equivalencia 1.4%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472121">
@@ -12698,7 +12730,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IVA Recargo de Equivalencia 5.2%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472004">
@@ -12706,7 +12738,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IVA soportado 4%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472010">
@@ -12714,7 +12746,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IVA soportado 10%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472021">
@@ -12722,7 +12754,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IVA soportado 21%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477004">
@@ -12730,7 +12762,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4770"/>
             <field name="name">Hacienda Pública. IVA repercutido 4%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477010">
@@ -12738,7 +12770,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4770"/>
             <field name="name">Hacienda Pública. IVA repercutido 10%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477021">
@@ -12746,7 +12778,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4770"/>
             <field name="name">Hacienda Pública. IVA repercutido 21%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477904">
@@ -12754,7 +12786,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_477"/>
             <field name="name">Hacienda Pública. IVA repercutido pendiente de cobro 4%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477910">
@@ -12762,7 +12794,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_477"/>
             <field name="name">Hacienda Pública. IVA repercutido pendiente de cobro 10%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477921">
@@ -12770,7 +12802,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_477"/>
             <field name="name">Hacienda Pública. IVA repercutido pendiente de cobro 21%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472904">
@@ -12778,7 +12810,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IVA soportado pendiente de pago 4%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472910">
@@ -12786,7 +12818,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IVA soportado pendiente de pago 10%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472921">
@@ -12794,7 +12826,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IVA soportado pendiente de pago 21%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472200">
@@ -12802,7 +12834,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IGIC soportado 0%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472203">
@@ -12810,7 +12842,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IGIC soportado 3%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472207">
@@ -12818,7 +12850,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IGIC soportado 7%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472295">
@@ -12826,7 +12858,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IGIC soportado 9,5%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472213">
@@ -12834,7 +12866,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IGIC soportado 13,5%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477200">
@@ -12842,7 +12874,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_477"/>
             <field name="name">Hacienda Pública. IGIC repercutido 0%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477203">
@@ -12850,7 +12882,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_477"/>
             <field name="name">Hacienda Pública. IGIC repercutido 3%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477207">
@@ -12858,7 +12890,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_477"/>
             <field name="name">Hacienda Pública. IGIC repercutido 7%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477295">
@@ -12866,7 +12898,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_477"/>
             <field name="name">Hacienda Pública. IGIC repercutido 9,5%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_477213">
@@ -12874,7 +12906,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_477"/>
             <field name="name">Hacienda Pública. IGIC repercutido 13,5%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475101">
@@ -12882,7 +12914,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones empresarios módulos 1%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475102">
@@ -12890,7 +12922,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones act. agrícolas, ganaderas, forestales 2%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475107">
@@ -12898,7 +12930,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones act. profesionales 7%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475109">
@@ -12906,7 +12938,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones act. profesionales 9%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475115">
@@ -12914,7 +12946,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones act. profesionales 15%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475118">
@@ -12922,7 +12954,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones arrendamientos, cap. mobiliario 18%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475119">
@@ -12930,7 +12962,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones arrendamientos, cap. mobiliario 19%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475195">
@@ -12938,7 +12970,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones arrendamientos, cap. mobiliario 19,5%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475120">
@@ -12946,7 +12978,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones arrendamientos, cap. mobiliario 20%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475121">
@@ -12954,7 +12986,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones arrendamientos, cap. mobiliario 21%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475135">
@@ -12962,7 +12994,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones act. Profesionales 35%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_475137">
@@ -12970,7 +13002,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_4751"/>
             <field name="name">Hacienda Pública. Retenciones act. Profesionales 37%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_32590"/>
+            <field name="type" ref="es_balance_pymes_32530"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473001">
@@ -12978,7 +13010,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta empresarios módulos 1%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473002">
@@ -12986,7 +13018,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta act. agrícolas, ganaderas, forestales 2%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473007">
@@ -12994,7 +13026,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta act. profesionales 7%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473009">
@@ -13002,7 +13034,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta act. profesionales 9%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473015">
@@ -13010,7 +13042,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta act. profesionales 15%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473018">
@@ -13018,7 +13050,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta arrendamientos, cap. mobiliario 18%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473019">
@@ -13026,7 +13058,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta arrendamientos, cap. mobiliario 19%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473095">
@@ -13034,7 +13066,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta arrendamientos, cap. mobiliario 19,5%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473020">
@@ -13042,7 +13074,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta arrendamientos, cap. mobiliario 20%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473021">
@@ -13050,7 +13082,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta arrendamientos, cap. mobiliario 21%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473035">
@@ -13058,7 +13090,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta act. Profesionales 35%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_473037">
@@ -13066,7 +13098,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_473"/>
             <field name="name">Hacienda Pública. Retenciones a cuenta act. Profesionales 37%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
         <record model="account.account.template" id="pgc_pymes_472012">
@@ -13074,7 +13106,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="pgc_pymes_472"/>
             <field name="name">Hacienda Pública. IVA soportado 12%</field>
             <field name="kind">other</field>
-            <field name="type" ref="es_balance_pymes_12390"/>
+            <field name="type" ref="es_balance_pymes_12330"/>
             <field name="deferral" eval="True"/>
         </record>
     </data>
