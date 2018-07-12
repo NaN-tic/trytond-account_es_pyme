@@ -24,7 +24,7 @@ class Account:
     def __register__(cls, module_name):
         pool = Pool()
         TableHandler = backend.get('TableHandler')
-        cursor = Transaction().connection.cursor()
+        cursor = Transaction().cursor
         model_data = Table('ir_model_data')
         model_field = Table('ir_model_field')
         sql_table = cls.__table__()
@@ -65,7 +65,7 @@ class Type:
     def __register__(cls, module_name):
         pool = Pool()
         TableHandler = backend.get('TableHandler')
-        cursor = Transaction().connection.cursor()
+        cursor = Transaction().cursor
         model_data = Table('ir_model_data')
         model_field = Table('ir_model_field')
         sql_table = cls.__table__()
@@ -126,4 +126,3 @@ class Type:
                 & (model_data.module == module_name))))
 
         super(Type, cls).__register__(module_name)
-
